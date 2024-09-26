@@ -30,11 +30,11 @@ Use cv2.imshow to show the video
 End the program and close the output video window by pressing 'q'.
 
 ## Program:
-``` Python
-### Developed By: KOWSALYA M
-### Register No: 212222230069
+``` 
+Developed By: KOWSALYA M
+Register No: 212222230069
 
-## i) Write the frame as JPG file
+i) Write the frame as JPG file
 import cv2
 videoCaptureObject=cv2.VideoCapture(0)
 while (True) :
@@ -45,7 +45,7 @@ while (True) :
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
-## ii) Display the video
+ii) Display the video
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -57,7 +57,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-## iii) Display the video by resizing the window
+iii) Display the video by resizing the window
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -77,7 +77,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-## iv) Rotate and display the video
+iv) Rotate and display the video
 
 import numpy as np
 import cv2
